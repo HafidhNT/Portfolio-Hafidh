@@ -1,0 +1,32 @@
+{
+  "personalInfo": {
+    "name": "Hafidh Nurhaqqi",
+    "email": "hafidhnurhaqqit@gmail.com",
+    "linkedinUrl": "https://www.linkedin.com/in/hafidhnt",
+    "profileImagePath": "images/profile.jpg",
+    "fallbackImageUrl": "https://placehold.co/200x200/4c4d4f/ffffff?text=HN"
+  },
+  "navigation": [
+    {
+      "id": "work",
+      "label": "Work"
+    },
+    {
+      "id": "skills",
+      "label": "Skills"
+    },
+    {
+      "id": "about",
+      "label": "About"
+    },
+    {
+      "id": "contact",
+      "label": "Contact"
+    }
+  ],
+  "heroSection": {
+    "greeting": "Hi, I'm Hafidh",
+    "summary": "An SDR, appointment setter, professional sales partner, strategic partnership builder, data enthusiast, and software troubleshooting specialist. Proven record as sales executive and working at tech saas company.",
+    "currentAim": "I'm currently aiming to build a long term career in SaaS and tech sales."
+  }
+}

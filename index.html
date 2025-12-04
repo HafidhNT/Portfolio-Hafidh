@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hafidh Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav id="nav"></nav>
+
+  <section id="hero">
+    <div class="hero-left">
+      <h1 id="greeting"></h1>
+      <p id="summary"></p>
+      <p id="aim"></p>
+    </div>
+    <div class="hero-right">
+      <img id="profileImage" alt="Profile">
+    </div>
+  </section>
+
+<script>
+fetch("./content.json")
+  .then(r => r.json())
+  .then(data => {
+    document.getElementById("greeting").innerText = data.heroSection.greeting;
+    document.getElementById("summary").innerText = data.heroSection.summary;
+    document.getElementById("aim").innerText = data.heroSection.currentAim;
+
+    const img = document.getElementById("profileImage");
+    img.src = data.personalInfo.profileImagePath;
+  });
+</script>
+</body>
+</html>
